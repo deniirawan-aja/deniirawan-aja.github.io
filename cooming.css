@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+.tt {
+  background-image: url(mieayampng/background\ ayaam\ -\ Copy.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Grenze", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+}
+.cok {
+  font-size: 80px;
+}
+.tek {
+  font-family: "Cascadia Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.tt img {
+  height: 200px;
+  width: 200px;
+  margin-top: -4rem;
+}
+.satu {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
+  margin: 9% 0;
+  position: relative;
+  top: -40px;
+}
+
+.tt .tod a {
+  font-size: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.tod {
+  margin: 25px;
+}
+
+.tt .kota {
+  margin-bottom: -30px;
+}
+
+aside {
+  position: fixed;
+  right: 10px;
+  top: 250px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  text-align: center;
+  color: #000000;
+  font-family: "Grenze", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  z-index: 3;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+aside li a {
+  text-decoration: none;
+  margin: 10px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+section:is(.MENU, ) {
+  height: 100vh;
+  background-image: url(mieayampng/background\ 234.jpg);
+  font-family: "Cascadia Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
+  color: #f0f0f0;
+  margin: auto;
+  background-size: cover;
+}
+section .MENU {
+  padding-top: 40px;
+}
+section:is(.TENTANG) {
+  background-image: url(mieayampng/background\ ayaam.jpg);
+  height: 100vh;
+  font-family: "Cascadia Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  /* text-align: center; */
+  font-size: 40px;
+  color: #ffffff;
+  /* margin: auto; */
+}
+section .TENTANG {
+  padding-top: 40px;
+}
+
+section .MENU .Item img {
+  width: 130px;
+  height: 130px;
+}
+
+section .MENU .Item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 24px;
+  margin-top: 6rem;
+  font-family: "Cascadia Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+section .TENTANG .sejarah {
+  font-size: 15px;
+  color: #f7f7f7;
+  width: 55ch;
+}
+section .TENTANG section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 50px;
+}
