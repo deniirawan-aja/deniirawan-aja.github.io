@@ -106,10 +106,9 @@ section:is(.TENTANG) {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  /* text-align: center; */
+  text-align: center;
   font-size: 40px;
   color: #ffffff;
-  /* margin: auto; */
 }
 section .TENTANG {
   padding-top: 50px;
@@ -133,12 +132,14 @@ section .MENU .Item {
 section .TENTANG .sejarah {
   font-size: 15px;
   color: #f7f7f7;
-  width: 65ch;
+  width: 100%;
+  margin-top: 5rem;
 }
 section .TENTANG section {
   display: flex;
   flex-direction: column;
-  margin: 0 0 0 60px;
+  justify-content: center;
+  margin: 0 10%;
 }
 
 @media screen and (max-width: 500px) {
