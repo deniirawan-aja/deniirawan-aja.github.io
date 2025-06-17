@@ -101,7 +101,7 @@ section .MENU {
 }
 section:is(.TENTANG) {
   background-image: url(mieayampng/background\ polos.png);
-  height: 150vh;
+  height: 100vh;
   font-family: "Cascadia Mono", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
